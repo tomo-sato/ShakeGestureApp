@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ShakeGestureApp</string>
+
+    <!-- テキスト名称 -->
+    <string name="display_pattern_name1">パターン名１</string>
+    <string name="display_pattern_name2">パターン名２</string>
+    <string name="display_pattern_name3">パターン名３</string>
+    <string name="display_score_title">スコア出力</string>
+
+    <!-- エディットテキスト デフォルト名称 -->
+    <string name="edit_default_pattern_name1">パターン１</string>
+    <string name="edit_default_pattern_name2">パターン２</string>
+    <string name="edit_default_pattern_name3">パターン３</string>
+
+    <!-- ボタン名 -->
+    <string name="button_pattern_save">記録</string>
+    <string name="button_pattern_auth">認証</string>
+
+    <!-- ダイアログボタン -->
+    <string name="dialog_button_start">開始</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+
+    <!-- ダイアログメッセージ -->
+    <string name="dialog_pattern_message_title">「%1$s」\nのジェスチャーを記録します。</string>
+    <string name="dialog_pattern_message_body">開始アラーム（開始ボタン押下%1$d秒後）が鳴ってからジェスチャーを開始してください。\n終了アラームが開始アラームから%2$d秒後に鳴り、ジェスチャー終了です。</string>
+    <string name="dialog_auth_message_title">認証を開始します。</string>
+    <string name="dialog_auth_message_body">@string/dialog_pattern_message_body</string>
+
+    <string name="progress_gesture_message_body">ジェスチャー記録中。</string>
+
+    <!-- トーストメッセージ -->
+    <string name="toast_pattern_name_required">パターン名は必須項目です。</string>
+    <string name="toast_finish_auth_message">スコアの取得が完了しました。</string>
+    <string name="toast_auth_error_message">認証処理に失敗しました。\nパターン記録後、実施してください。</string>
+</resources>
